@@ -58,7 +58,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  position: relative;
+  position: sticky;
+  top: 140px;
   background-color: var(--theme-color);
   color: var(--main-font-color);
 }
@@ -71,8 +72,8 @@
   grid-template-rows: 1fr 1fr 1fr;
   justify-items: center;
   position: absolute;
-  width: 100%;
   top: 50px;
+  width: 100%;
   background-color: var(--bg-color-lightgray);
   font-size: var(--font-size-small);
   z-index: 1;
@@ -81,6 +82,12 @@
 .gnb__depth {
   display: block;
   margin: 15px 0;
+}
+.gnb div a {
+  display: inline-block;
+  width: 100px;
+  line-height: 30px;
+  text-align: center;
 }
 
 /* 내가 구현한 영역 시작 */
