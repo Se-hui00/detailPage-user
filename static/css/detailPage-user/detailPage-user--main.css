@@ -124,6 +124,7 @@
   height: 300px;
   position: relative;
   overflow: hidden;
+  z-index: -1;
 }
 .mnFace-l img {
   /* display: flex;
@@ -272,6 +273,7 @@
   height: 90%;
   overflow: hidden;
   margin: 5px;
+  z-index: -1;
 }
 .inform .img .item .item1 {
   display: grid;
@@ -305,6 +307,7 @@
   height: 90%;
   overflow: hidden;
   margin: 10px 5px 20px 5px;
+  z-index: -1;
 }
 .campImg .img .item .item1 {
   display: flex;
